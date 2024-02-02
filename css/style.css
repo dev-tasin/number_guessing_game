@@ -5,10 +5,10 @@
 }
 .number_guessing_game{
     width: 400px;
-    height: 450px;
+    height: 480px;
     background: #f6bc56;
     border: 2px dotted rgb(0, 0, 0);
-    margin: 20px auto;
+    margin: 40px auto;
     text-align: center;
     padding: 20px;
     overflow: hidden;
@@ -72,6 +72,7 @@
 }
 .tasin h5{
     font-size: 30px;
+    margin-bottom: 20px;
 }
 .chance_count{
     color: red;
