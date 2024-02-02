@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.number_guessing_game{
+    width: 400px;
+    height: 450px;
+    background: #f6bc56;
+    border: 2px dotted rgb(0, 0, 0);
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.img_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game h1 ,h2 {
+    padding: 10px 0;
+}
+.player_one_input , .player_two_input{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #0000005e;
+}
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+.player_one_err , .player_two_err{
+    color: red;
+    font-size: 14px;
+
+}
+.player_one_btn , .player_two_btn {
+    padding: 10px 20px;
+    border-radius: 10px 5px 10px 5px;
+    background: #54ffcf;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.restart{
+    padding: 10px 20px;
+    border-radius: 10px 5px 10px 5px;
+    background: #54ffcf;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    margin: 20px 0;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.tasin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff0000;
+}
+.tasin h5{
+    font-size: 30px;
+}
+.chance_count{
+    color: red;
+}
+.img_two{
+    display: none;
+}
+.player_two{
+    display: none;
+}
+.restart{
+    display: none;
+}
